@@ -14,7 +14,11 @@
     "gulp-util": "^2.2.14",
     "shelljs": "^0.3.0"
   },
-  "cordovaPlugins": [],
+  "cordovaPlugins": [
+	"org.apache.cordova.camera",
+	"cordova-plugin-media-capture",
+	"cordova-plugin-file"   	
+],
   "cordovaPlatforms": [
     "android"
   ]
